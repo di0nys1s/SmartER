@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:text="SmartER SIGN UP"/>
+        
+        <TextView
+        android:id="@+id/textFirstErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+        <TextView
+        android:id="@+id/textSurErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Surname"
+        android:inputType="textPersonName"/>
+
+        <TextView
+        android:id="@+id/textEmailErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+        <TextView
+        android:id="@+id/textUserNameErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editRegisterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Username"/>
+
+        <TextView
+        android:id="@+id/textPwdErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+        <TextView
+        android:id="@+id/textDOBErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_marginTop="10dp"
+        android:hint="Date of Birth"/>
+
+        <TextView
+        android:id="@+id/textAddressErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPostalAddress"
+        android:hint="Address" />
+
+        <TextView
+        android:id="@+id/textPostcodeErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+
+    <EditText
+        android:id="@+id/editTextPostCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="Post Code" />
+
+        <TextView
+        android:id="@+id/textPhoneErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorBackground"
+        android:textStyle="bold"
+        android:fontFamily="@string/style_satellite"
+        android:paddingLeft="10dp"
+        android:layout_column="1"/>
+
+    <EditText
+        android:id="@+id/editTextMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:hint="Mobile" />
+
+
+    <Spinner
+    android:id="@+id/spinnerProvider"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_weight="10"
+    android:fadingEdge="horizontal"
+    android:inputType="number"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:tooltipText="Residents" />
+
+    <Spinner
+    android:id="@+id/spinnerResidentNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_weight="10"
+    android:fadingEdge="horizontal"
+    android:inputType="number"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:tooltipText="Residents" />
+
+
+    <Button
+        android:id="@+id/b_register_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Register"/>
+
+    <Button
+        android:id="@+id/b_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Cancel"/>
+
+</LinearLayout>
+
+</ScrollView>

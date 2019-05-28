@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">SmartER</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_username">UserName will be here</string>
+    <string name="nav_mail">User mail address will be here</string>
+    <string name="nav_header_desc">Header description</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign out</string>
+    <string name="today_temperature">Temperature Around Your Address</string>
+    <string name="report_desc">Reports will be here</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_login_short">Login</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username
+        completions."
+    </string>
+    
+    <string name="nav_header_title">SmartER</string>
+    <string name="nav_header_subtitle">Welcome to SmartER</string>
+    <string name="action_settings">Settings</string>
+    <string name="access_token">9dlH0Lh3fa4tZ8sWVsMn0wac3vsyfs09</string>
+    <string name="text_login_username">Username</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="personal_info_title">Register Information</string>
+    <string name="account_info_title">Account Information</string>
+    <string name="register_title">Create a new account</string>
+    <string name="big_title_login">Smart Energy</string>
+    <string name="register_firstname">First name</string>
+    <string name="register_surname">Surname</string>
+    <string name="register_address">Address</string>
+    <string name="register_postcode">Postcode</string>
+    <string name="register_mobile">Mobile</string>
+    <string name="register_email">Email</string>
+    <string name="register_birthday">Date of birth</string>
+    <string name="register_username">User name</string>
+    <string name="register_first_name_empty_msg">First name cannot be empty</string>
+    <string name="register_surname_empty_msg">Surname cannot be empty</string>
+    <string name="register_dob_empty_msg">Date of birth cannot be empty</string>
+    <string name="register_dob_format_msg">Invalid birthday</string>
+    <string name="register_address_empty_msg">Address cannot be empty</string>
+    <string name="register_postcode_empty_msg">Postcode cannot be empty</string>
+    <string name="register_mobile_empty_msg">Mobile cannot be empty</string>
+    <string name="register_email_empty_msg">Email cannot be empty</string>
+    <string name="register_email_format_msg">Invalid email</string>
+    <string name="register_email_exist_msg">User with same email exists</string>
+    <string name="register_resident_number_empty_msg">Number of resident cannot be empty</string>
+    <string name="register_energy_provider_empty_msg">Energy provider cannot be empty</string>
+    <string name="register_username_empty_msg">User name cannot be empty</string>
+    <string name="register_username_exist_msg">User name exists</string>
+    <string name="register_pwd_empty_msg">Password cannot be empty</string>
+    <string name="register_pwd_format_msg">Invalid password</string>
+    <string name="welcome">Welcome </string>
+    <string name="positive_msg">Great!</string>
+    <string name="negative_msg">Nooooooooo!!!</string>
+    <string name="pie_chart_date_selector">Pick a date</string>
+    
+    
+    <string-array name="residents_array">
+        <item>No. of resident</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="dh_array">
+        <item>daily</item>
+        <item>hourly</item>
+    </string-array>
+    
+</resources>
